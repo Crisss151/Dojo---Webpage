@@ -1,33 +1,37 @@
 body {
 	background-color:gray;
-	background-image:"dojo.jpg";
+	background-image:url("today.jpg");
 	}
-.header {
-	display:inline-block;
+#header {
+	display:inline;
 	float:right;
-	width:80%;
+	width:78%;
 	height:4.5em;
 	border-radius:1em;
-	background-color:blue;
 	margin-top:10px;
-	text-align:center;
 	font-size:30px;
+	text-align:center;
 	font-family:Vivaldi;
 	color:white;
 	}
 .topside {
-	display:inline-block;
+	z-index:-1;
+	display:block;
 	float:left;
+	margin:0em;
 	border-radius:3em;
 	height:43em;
 	width:20%;
 	background-color:black;
 	line-height:3em;
+	position:absolute;
 	}
 img {
 	height:20em;
 	width:16em;
 	border-radius:2em;
+	float: left;
+	display:inline;
 	}
 /*
 .botside {
@@ -46,7 +50,7 @@ div a:link {
 	text-indent:20px;
 	}
 div a:hover {
-	color:blue;
+	color:red;
 	font-size:30px;
 	text-decoration:italic;
 }
@@ -56,7 +60,7 @@ div a:hover {
 	margin-left:-3em;
 	float:right;
 	height:23em;
-	width:59em;
+	width:58.5em;
 	background-color:black;
 	border:2em;
 	border-radius:3em;
@@ -77,23 +81,25 @@ div a:hover {
 	font-family:Arial;
 	}
 .footer {
-	z-index: 1;
+	z-index: 0;
 	display:inline-block;
 	position:absolute;
 	margin-top:29.5em;
 	margin-left:0.5em;
 	margin-right:auto;
-	position:bottom;
 	width:50.5em;
 	height:5em;
-	background-color:blue;
 	border-radius:1em;
 	text-align:center;
 	font-family:Vivaldi;
 	font-size:20px;
+	color:white;
 	}
 h3 {
 	font-size:30px;
+	}
+h2 {	
+	font-size:50px;
 	}
 	
 
