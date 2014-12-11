@@ -28,7 +28,7 @@ body {
 	}
 img {
 	height:20em;
-	width:16em;
+	width:20%;
 	border-radius:2em;
 	float: left;
 	display:inline;
@@ -60,7 +60,7 @@ div a:hover {
 	margin-left:-3em;
 	float:right;
 	height:23em;
-	width:58.5em;
+	width:73%;
 	background-color:black;
 	border:2em;
 	border-radius:3em;
